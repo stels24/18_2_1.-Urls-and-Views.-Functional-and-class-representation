@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from task2.views import all_class, all_func, Class_r
+from task2.views import all_class, all_func,
 from django.views.generic import TemplateView
 
 urlpatterns = [
